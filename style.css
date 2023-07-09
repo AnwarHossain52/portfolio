@@ -16,9 +16,17 @@ font-weight: 700;
 padding: 15px 35px;
 
 }
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+   
+}
 
 /* nave related style */
 nav{
+    font-size: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -53,16 +61,43 @@ nav a{
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
+    align-items: center;
+    justify-content:space-between ;
 }
 .banner .profile{
     width: 500px;
 }
 .banner-greeting{
     font-size: 35px;
+    color: #474747;
+    margin-bottom: 0;
 }
 .banner-title{
     font-size: 75px;
     font-style: normal;
     font-weight: 700;
     color: #181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-contant{
+    max-width: 500px;
+}
+.About{
+    padding: 130px;
+    border-radius: 10px;   
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex ;
+    justify-content: space-around;
+    
+}
+.about-info{
+   text-align: center; 
 }
